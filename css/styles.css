@@ -1,0 +1,196 @@
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* Selection */
+.color-section
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section
+{
+  background-color: white;
+}
+
+/* Heading */
+.big-heading
+{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* container-fluid */
+.container-fluid
+{
+  padding: 7% 15%;
+}
+/*navbar*/
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/*Download-button*/
+.Download-button
+{
+  margin: 5% 25px 5% ;
+}
+/* title */
+
+
+#title .container-fluid
+{
+  text-align: left;
+  padding: 3% 15% 10.5%;
+}
+
+/* Title-image */
+.iphone-image
+{
+  padding-top: 40px;
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 15%;
+}
+
+/* Features */
+#features
+{
+  position: relative;
+}
+.features-text
+{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.features-items
+{
+  padding: 4.5%;
+}
+/* icons */
+.features-icons
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-icons:hover
+{
+  color: #ff4c68;
+}
+
+/* Features-text */
+.features-description
+{
+  color: #8f8f8f;
+  padding: 0 1rem;
+}
+
+/* testimonials */
+#testimonials
+{
+  background-color: #ff9a76;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text
+{
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+#press
+{
+  background: #ff9a76;
+  padding-bottom: 20px;
+}
+.press-img
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing-title
+{
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.pricing-text
+{
+  font-size: 1.05rem;
+}
+.plan-name
+{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.plan-price
+{
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.plan-features
+{
+  font-size: 1.05rem;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+/* call to action */
+
+.slogan
+{
+  margin-bottom: 2.5rem;
+}
+
+
+
+.Content
+{
+  margin: 25PX 15PX;
+}
+
+.Copyright
+{
+  color: #8f8f8f;
+  font-size: 1.15rem;
+}
+/* Mobile */
+@media (max-width : 1028px) {
+  #title
+  {
+    text-align: center;
+  }
+  .iphone-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
